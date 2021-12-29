@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <title>Bitcoin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Sacramento&family=Special+Elite&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="topPage">
+            <img src="bit_coin.png" alt="Bitcoin-logo" id="bitcoinLogo">
+        </div>
+        <div id="dateField">
+            <h2>Set the range and know more about Bitcoins market value.</h2>
+            <div id="inputFields">
+                <form>
+                    <label for="dateBegin">From</label>
+                    <input type="date" id="dateBegin" name="dateBegin"
+                    min="2009-01-03" max="2022-01-02">
+                    <label for="dateEnd">To</label>
+                    <input type="date" id="dateEnd" name="dateEnd"
+                    min="2009-01-03" max="2022-01-02"><br><br>
+                </form>
+                <button id="submitBtn">Submit</button>
+            </div>
+        </div>
+            <div id="textField">
+                <h2>Results from historical data from CoinGecko</h2>
+                <h3 id="textTrend">The decrease of price:</h3>
+                <h3 id="textVolume"> The date with the highest trading volume and the volume on that day in euros.</h3>
+                <h3 id="textTrade">The day to buy and the day to sell. In the case when one should neither
+                    buy nor sell, don't buy nor sell.</h3>
+            </div>
+        <div id="bottomPage"></div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
