@@ -7,19 +7,19 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
 }
 
 #dateField {
     font-family: 'Zen Maru Gothic', sans-serif;
     display: flex;
-    width: 80%;
+    width: 90%;
     flex-direction: column;
     background-color: #f7931a;
     border-radius: 15px;
     box-sizing: border-box;
     padding: 1% 5%;
-    margin: 1% 10%;
+    margin: 1% 5%;
 }
 
 input[type=date] {
@@ -55,13 +55,13 @@ input[type=date] {
 #textField {
     font-family: 'Zen Maru Gothic', sans-serif;
     display: flex;
-    width: 80%;
+    width: 90%;
     flex-direction: column;
     background-color: #f7931a;
     border-radius: 15px;
     padding: 1% 5%;
     box-sizing: border-box;
-    margin: 1% 10%;
+    margin: 1% 5%;
 }
  #bottomPage {
      box-sizing: border-box;
