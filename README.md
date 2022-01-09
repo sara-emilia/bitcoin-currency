@@ -1,6 +1,6 @@
 # bitcoin-currency
 
-This webpage is a pre-assignment to Vincit. Technologies are HTML5, CSS and JavaScript and it uses CoinGecko-API.
+This webpage is a tool for Bitcoin currency. Technologies are HTML5, CSS and JavaScript and it uses CoinGecko-API.
 It allows user set the range and by APIs data it gives you three analyzed answer.
 1. The longest bearish trend within the given date range.
 2. The date of the highest trading volume and the volume in euros.
